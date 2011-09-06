@@ -1,0 +1,9 @@
+.container {
+	width: 940px;
+	margin:0 auto;
+	padding:0 10px;
+}
+
+#header {
+	background-image: url('../images/header_bg.jpg') center top no-repeat;
+}
