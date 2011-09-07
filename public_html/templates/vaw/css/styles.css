@@ -65,3 +65,5 @@ body {
 #masthead li {
 	padding:5px;
 }
+
+.clear { clear: both; }
