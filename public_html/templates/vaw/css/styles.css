@@ -1,0 +1,49 @@
+body {
+	font-family: Helvetica, sans-serif;
+	
+}
+
+#navcontainer ul {
+	float:left;
+	margin-top:70px;
+	margin-left:80px;
+	list-style-type: none;
+	text-decoration: none;
+	font-weight:100;
+	font-size: 14px;
+}
+
+#navcontainer ul li { display: inline; }
+
+#navcontainer ul li a {
+	text-decoration: none;
+	padding: 0 0 0 2em;
+	color: #fff;
+}
+
+#navcontainer ul li:first-child a{
+	padding-left:0;
+}
+
+#navcontainer ul li a:hover {
+	background: #DDD url('../images/header_rollover.png') ;
+	width: 152px;
+	height: 36px;
+}
+
+
+#masthead h1 {
+	position: relative;
+	font-size:24px;
+	left:-10px;
+	font-weight: normal;		
+}
+
+#masthead li ul {
+	font-size:14px;
+	padding:25px;
+}
+
+#masthead li {
+	padding:5px;
+}

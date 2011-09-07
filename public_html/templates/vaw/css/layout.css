@@ -1,9 +1,66 @@
-.container {
+
+
+#header {
+background: url('../images/header_bg.jpg') center top no-repeat;
+float:left;
+height:208px;
+width:1220px;
+top:-10px;
+}
+
+#header .container {
 	width: 940px;
 	margin:0 auto;
 	padding:0 10px;
 }
 
-#header {
-	background-image: url('../images/header_bg.jpg') center top no-repeat;
+#masthead  {
+	float:left;
+	margin-left:140px;
+	height:315px;
+	border-bottom:1px solid #5a2874;
+	width:940px;
+	color:#5a2874;
 }
+
+#masthead_img {
+	float:left;
+}
+
+#masthead_ul {
+	float:left;
+	width:340px;
+}
+
+#component {
+	width:630px;
+	margin-right:20px;
+	float:left;
+}
+
+body. isWide #component {
+	width:100%;
+	margin-right:0;
+}
+
+#sidebar {
+	width: 280px;
+	margin-left:20px;
+	float:left;
+}
+
+#footer {
+position:absolute;
+background: url('../images/footer_bg.jpg') center bottom no-repeat;
+width:1220px;
+height:176px;
+top:940px;
+}
+
+#vaw_logo {
+float:left;
+width:377px;
+height:88px;
+margin-top:30px;
+}
+
