@@ -28,7 +28,7 @@
 		
 	<div id="masthead"><div class="container">
 				
-		<img id="masthead_img" src="../../images/default/img_main.jpg">		
+		<img id="masthead_img" src="images/default/img_main.jpg">		
 		
 		<div id="masthead_ul">
 			<ul>
@@ -42,15 +42,29 @@
 			</ul>
 		</div>
 		
+		<div class="clear"></div>
 	</div></div>
 		
 	<div id="body"><div class="container">
 	<div id="component">
-		<jdoc:include type="modules" name="component" style="xhtml" />
+		
+		<img id="comp_img" src="images/default/img_comp.jpg" >
+		
+		<div id="comp">
+		Welcome to SLCCVAW!
+
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim neque a velit condimentum molestie.
+
+		Fusce quis lacus arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim neque a velit condimentum molestie.
+
+		Suspendisse leo nisl, tempus id mollis elementum, faucibus nec nulla. Nulla consectetur convallis erat, vulputate tincidunt nisl sodales sit amet. Aliquam tincidunt fermentum tincidunt. Etiam dignissim neque a velit condimentum molestie. Fusce quis lacus arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+		
+		
+		</div>
+		
 		
 	</div>
 	<div id="sidebar">
-		<jdoc:include type="modules" name="sidebar" style="xhtml" />
 		
 	</div>
 	<div class="clear"></div>		
