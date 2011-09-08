@@ -1,59 +1,14 @@
-body {
-	font-family: Helvetica, sans-serif;
-	color:#5a2874;
-}
-
-#navcontainer {
-	position: absolute;
-	bottom: 25px;
-	right:0;
-}
-
-#navcontainer ul {
-	list-style-type: none;
-	text-decoration: none;
+.floatright {
+	float:right;
+	color:#fff;
+	padding-top: 120px;
 	font-weight:100;
-	font-size: 14px;
-	margin: 0;
-	padding: 0;
+	font-size:10px;
 }
 
-#navcontainer ul li { 
-	display: inline-block; 
-	padding: 0 10px;
-	margin-left: 6px;
-}
+.clear {clear:both;}
 
-#navcontainer ul li a {
-	display:block;
-	text-decoration: none;
-	padding: 0 10px 0 0;
-	line-height:35px;
-	color: #fff;
-}
-
-#navcontainer ul li:first-child a{
-	margin-left:0;
-}
-
-#navcontainer ul li:hover {
-	background: url('../images/navrollover.png') top left no-repeat;
-}
-
-#navcontainer ul li:hover a {
-	background: url('../images/navrollover.png') bottom right no-repeat ;
-}
-
-
-
-#masthead h1 {
-	padding-bottom:35px;
-	position: relative;
-	font-size:24px;
-	font-weight: 100;
-	margin:0;		
-}
-
+/* dumping ground */
 #masthead li ul {
 	padding:25px;
 }
@@ -67,24 +22,12 @@ body {
 	
 }
 
-#comp h1 {
-	font-size:18px;
-	margin: 0;
-	font-weight:100;
-}
-
 #comp p {
 	margin-top:30px;
 	font-size: 12px;
 	line-height:22px;
 	}
-
-#sidebar h1 {
-	margin: 0;
-	font-weight:100;
-}
-
-
+	
 #sidebar li {
 	font-size:12px;
 	list-style-type:none;
@@ -95,52 +38,37 @@ body {
 	
 }
 
-#sidebar h1 {
-	font-size:18px;
-	font-weight:normal;
-}
-
 #sidebar ul {
 	border-left: 1px solid #eee9f1;
 }
 
-#navfooter {
-	position: absolute;
-	top:80px;
+#masthead_img {
+	border: 1px solid #5a2874 ;
+	float:left;
+	margin-right:27px;
 }
 
-#navfooter ul {
-	list-style-type: none;
-	text-decoration: none;
-	font-weight:100;
-	font-size: 10px;
-	padding: 0px;
-	color: #fff;
-	
+#masthead ul {
+	float:left;
+	width:290px;
+	padding: 0 0 0 0;
+	margin: 0;
 }
 
-#navfooter li {
-	border-left: 1px solid #eee9f1;
-
+#comp_img {
+	float:right;
+	margin: 0 0 25px 30px;
+	border: 1px solid #5a2874 ;
 }
 
-#navfooter li:first-child {
-	border:none;
-}
-
-#navfooter ul li { 
-	display: inline; 
-	padding:0;
-}
-
-#navfooter ul li a {
-	text-decoration:none;
-	padding: 0 6px;
-	color: #fff;
-}
-
-#navfooter li:first-child a {
-	padding-left:0;
+#sidebar ul {
+	width:280px;
+	padding: 0 0 0 20px;
+	margin: 0;
 }
 
 
+#sidebar li:hover {
+	background: url('../images/logo_symbol.png') bottom right no-repeat;
+	background-position: 100% 85%;
+}

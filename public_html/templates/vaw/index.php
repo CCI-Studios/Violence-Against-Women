@@ -47,10 +47,6 @@
 		
 	<div id="body"><div class="container">
 	<div id="component">
-		
-		
-		
-		<div id="comp">
 			
 			<img id="comp_img" src="images/default/img_comp.jpg" >
 			
@@ -61,7 +57,6 @@
 		Fusce quis lacus arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim neque a velit condimentum molestie.<br/><br/>
 
 		Suspendisse leo nisl, tempus id mollis elementum, faucibus nec nulla. Nulla consectetur convallis erat, vulputate tincidunt nisl sodales sit amet. Aliquam tincidunt fermentum tincidunt. Etiam dignissim neque a velit condimentum molestie. Fusce quis lacus arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		</div>
 		
 		
 	</div>
