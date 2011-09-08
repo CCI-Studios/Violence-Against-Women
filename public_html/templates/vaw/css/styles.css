@@ -1,6 +1,6 @@
 body {
 	font-family: Helvetica, sans-serif;
-	
+	color:#5a2874;
 }
 
 #navcontainer {
@@ -45,19 +45,94 @@ body {
 }
 
 
+
 #masthead h1 {
+	padding-bottom:35px;
 	position: relative;
 	font-size:24px;
-	left:-10px;
-	font-weight: normal;		
+	font-weight: 100;
+	margin:0;		
 }
 
 #masthead li ul {
-	font-size:14px;
 	padding:25px;
 }
 
 #masthead li {
+	margin-left:15px;
 	padding:5px;
+	font-size:14px;
+	font-weight:100;
+	line-height:22px;
+	
 }
+
+#comp h1 {
+	font-size:18px;
+	margin: 0;
+	font-weight:100;
+}
+
+#comp p {
+	font-size: 12px;
+	line-height:22px;
+	}
+
+#sidebar h1 {
+	margin: 0;
+	font-weight:100;
+}
+
+
+#sidebar li {
+	font-size:12px;
+	list-style-type:none;
+	padding: 15px 0;
+	margin:0em;
+	line-height:22px;
+	border-bottom:1px solid #eee9f1;
+	
+}
+
+#sidebar h1 {
+	font-size:18px;
+	font-weight:normal;
+}
+
+#sidebar ul {
+	border-left: 1px solid #eee9f1;
+}
+
+#navfooter {
+	position: absolute;
+	top:80px;
+}
+
+#navfooter ul {
+	list-style-type: none;
+	text-decoration: none;
+	font-weight:100;
+	font-size: 10px;
+	margin-right:5px;
+	padding: 0px;
+	color: #fff;
+	
+}
+
+#navfooter li {
+	border-left: 1px solid #eee9f1;
+}
+
+#navfooter ul li { 
+	display: inline; 
+	padding-left:7px;
+}
+
+#navfooter ul li a {
+	text-decoration: none;
+	padding: 0 10px 0 0;
+	line-height:20px;
+	color: #fff;
+}
+
 

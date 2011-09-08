@@ -48,29 +48,60 @@
 	<div id="body"><div class="container">
 	<div id="component">
 		
-		<img id="comp_img" src="images/default/img_comp.jpg" >
+		
 		
 		<div id="comp">
-		Welcome to SLCCVAW!
+			
+			<img id="comp_img" src="images/default/img_comp.jpg" >
+			
+		<h1>Welcome to SLCCVAW!</h1>
 
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim neque a velit condimentum molestie.
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim neque a velit condimentum molestie.<br/><br/>
 
-		Fusce quis lacus arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim neque a velit condimentum molestie.
+		Fusce quis lacus arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim neque a velit condimentum molestie.<br/><br/>
 
-		Suspendisse leo nisl, tempus id mollis elementum, faucibus nec nulla. Nulla consectetur convallis erat, vulputate tincidunt nisl sodales sit amet. Aliquam tincidunt fermentum tincidunt. Etiam dignissim neque a velit condimentum molestie. Fusce quis lacus arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		
-		
+		Suspendisse leo nisl, tempus id mollis elementum, faucibus nec nulla. Nulla consectetur convallis erat, vulputate tincidunt nisl sodales sit amet. Aliquam tincidunt fermentum tincidunt. Etiam dignissim neque a velit condimentum molestie. Fusce quis lacus arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 		</div>
 		
 		
 	</div>
 	<div id="sidebar">
 		
+		<div>
+			<ul>
+				<h1>Upcoming Events</h1>
+				<li>May 6, 2011<br />
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				</li>
+				
+				<li>May 23, 2011<br />
+				Etiam dignissim neque a velit condimentum molestie.</li>
+				
+				<li>June 1, 2011<br />
+				Fusce quis lacus arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+				
+			</ul>
+		</div>
+		
 	</div>
 	<div class="clear"></div>		
 	</div></div>
 		
 	<div id="footer"><div><div class="container">
+		
+		<div id="navfooter">
+			<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Member Agencies</a></li>
+			<li><a href="#">Events</a></li>
+			<li><a href="#">Contact</a></li>
+			</ul>
+			<ul>© 2011 SLCCVAW. All Rights Reserved.</ul>
+		</div>
+		<span class="floatright">Site by CCI Studios</span>
+		
+		
 	</div></div></div>
 		
 </body>
