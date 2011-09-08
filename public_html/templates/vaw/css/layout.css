@@ -78,10 +78,10 @@ body. isWide #component {
 	margin: 0;
 }
 
-#sidebar li {
+
+#sidebar li:hover {
 	background: url('../images/logo_symbol.png') bottom right no-repeat;
 	background-position: 100% 85%;
-	
 }
 
 #footer {
