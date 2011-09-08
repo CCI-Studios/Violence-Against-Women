@@ -1,6 +1,9 @@
 body {
 	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	line-height:22px;
 	color:#5a2874;
+	background: #68447B;
 }
 
 #masthead h1 {
@@ -11,7 +14,7 @@ body {
 	margin:0;		
 }
 
-#comp h1 {
+#component h1 {
 	font-size:18px;
 	margin: 0;
 	font-weight:100;
@@ -25,4 +28,13 @@ body {
 #sidebar h1 {
 	font-size:18px;
 	font-weight:normal;
+}
+
+
+#body img, #masthead img {
+	border: 1px solid #5a2874;
+}
+
+p {
+	margin-top:30px;
 }

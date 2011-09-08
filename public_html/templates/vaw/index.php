@@ -13,7 +13,7 @@
 	<img id="vaw_logo" src="../../images/default/vaw_logo.png" />
 	
 	<div id="navcontainer">
-		<ul>
+		<ul class="menu">
 		<li><a href="#">Home</a></li>
 		<li><a href="#">About</a></li>
 		<li><a href="#">Member Agencies</a></li>
@@ -28,11 +28,11 @@
 		
 	<div id="masthead"><div class="container">
 				
-		<img id="masthead_img" src="images/default/img_main.jpg">		
+		<img class="floatleft" id="masthead_img" src="images/default/img_main.jpg">		
 		
 		<div id="masthead_ul">
-			<ul>
-				<h1>A Community Working Together To End Violence Against Women</h1>
+			<h1>A Community Working Together To End Violence Against Women</h1>
+			<ul class="big">
 				<li>Morbi vel lacus sed magna gravida mattis 
 					eu in nisl.</li>
 				<li>Sed ullamcorper scelerisque ornare.    
@@ -48,7 +48,7 @@
 	<div id="body"><div class="container">
 	<div id="component">
 			
-			<img id="comp_img" src="images/default/img_comp.jpg" >
+			<img class="floatright" id="comp_img" src="images/default/img_comp.jpg" >
 			
 		<h1>Welcome to SLCCVAW!</h1>
 
@@ -63,8 +63,8 @@
 	<div id="sidebar">
 		
 		<div>
-			<ul>
-				<h1>Upcoming Events</h1>
+			<h1>Upcoming Events</h1>
+			<ul class="events">
 				<li>May 6, 2011<br />
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				</li>
@@ -82,22 +82,21 @@
 	<div class="clear"></div>		
 	</div></div>
 		
-	<div id="footer"><div><div class="container">
-		
+	<div id="footer"><div class="container">
 		<div id="navfooter">
-			<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Member Agencies</a></li>
-			<li><a href="#">Events</a></li>
-			<li><a href="#">Contact</a></li>
+			<ul class="menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Member Agencies</a></li>
+				<li><a href="#">Events</a></li>
+				<li><a href="#">Contact</a></li>
 			</ul>
-			<ul>© 2011 SLCCVAW. All Rights Reserved.</ul>
 		</div>
-		<span class="floatright">Site by CCI Studios</span>
+		<div class="floatleft">© 2011 SLCCVAW. All Rights Reserved.</div>
+		<div class="floatright">Site by CCI Studios</div>
 		
-		
-	</div></div></div>
+		<div class="clear"></div>
+	</div></div>
 		
 </body>
 </html>
