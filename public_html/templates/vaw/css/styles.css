@@ -18,7 +18,7 @@ ul.events {
 ul.events li {
 	font-size:12px;
 	list-style-type:none;
-	padding: 15px 0;
+	padding: 14px 0;
 	margin:0em;
 	border-bottom:1px solid #eee9f1;
 }
@@ -39,9 +39,26 @@ ul.big li {
 	font-weight:100;
 }
 
+#contact a {
+	color:#5a2874;
+	text-decoration:none;
+}
+
+#footer a {
+	color: #fff;
+	text-decoration:none;
+}
+
+.moduletable.list {
+	color: red;
+}
+
+.blog .item {margin-bottom:1em;}
+.blog. itemrow .item {margin-left:1em;}
+
 /* dumping ground */
 #masthead_ul {
 	width:290px;
-	float: left;
-	margin-left: 27px;
+	float: right;
+	
 }

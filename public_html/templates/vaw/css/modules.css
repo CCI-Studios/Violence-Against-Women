@@ -28,45 +28,59 @@ ul.menu a {
 }
 
 /* @group main menu */
-#navcontainer {
+#header .moduletable.menu {
 	position: absolute;
 	bottom: 25px;
 	right:0;
 }
 
-#navcontainer ul {
+#header .moduletable.menu ul {
 	font-size: 14px;
 }
 
-#navcontainer ul li { 
+#header .moduletable.menu ul li { 
 	padding: 0 0 0 10px;
 	margin-left: 6px;
 }
 
-#navcontainer ul li a {
+#header .moduletable.menu ul li a {
 	padding: 0 10px 0 0;
 	line-height:35px;
 }
 
-#navcontainer ul li:first-child a {
+#header .moduletable.menu ul li:first-child a {
 	margin-left:0;
 }
 
-#navcontainer ul li:hover {
+#header .moduletable.menu ul li:hover {
 	background: url('../images/navrollover.png') top left no-repeat;
 }
 
-#navcontainer ul li:hover a {
+#header .moduletable.menu ul li:hover a {
 	background: url('../images/navrollover.png') bottom right no-repeat ;
 }
 /* @end */
 
 /* footer menu */
-#navfooter ul li { 
+#footer .moduletable.menu ul li { 
 	border-left: 1px solid #eee9f1;
 }
 
-#navfooter li:first-child {
+#footer .moduletable.menu li:first-child {
 	border:none;
 }
 /* @end */
+
+/* contact */
+#contact {
+	background: url('../images/logo_symbol.png') bottom right no-repeat;
+	list-style-type:none;
+	padding-top:20px;
+}
+
+
+/* @end */
+
+#sidebar .moduletable {margin-top:1em; } /*FIXME wrong spacing */
+#sidebar .moduletable:first-child {margin-top: 0; }
+
