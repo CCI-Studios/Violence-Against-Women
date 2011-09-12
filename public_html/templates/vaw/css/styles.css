@@ -49,16 +49,13 @@ ul.big li {
 	text-decoration:none;
 }
 
-.moduletable.list {
-	color: red;
-}
 
-.blog .item {margin-bottom:1em;}
+.blog .item {margin-bottom:3em;}
+
+.blog .leading-0 {
+	margin-bottom:3em;
+	margin-top:3em;
+	}
+
 .blog. itemrow .item {margin-left:1em;}
 
-/* dumping ground */
-#masthead_ul {
-	width:290px;
-	float: right;
-	
-}
