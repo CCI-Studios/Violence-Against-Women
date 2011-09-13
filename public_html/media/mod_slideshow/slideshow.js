@@ -74,6 +74,9 @@ var SimpleSlideShow = new Class({
 	showSlide: function(iToShow){
 		if (this.fading) return;
 		
+		if (this.timer) {
+			clearTimeout(this.timer);
+		}
 		var now = this.now;
 		var currentSlide = this.slides[now];
 		var slide = this.slides[iToShow];
