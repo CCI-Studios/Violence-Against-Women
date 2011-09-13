@@ -15,8 +15,5 @@ window.addEvent('domready', function() {
 </script>
 
 <div id="slideshow">
-	<img class="next" />
-	<img class="current" />
-	
 	<ul class="dots"></ul>
 </div>
