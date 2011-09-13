@@ -116,6 +116,7 @@ var SimpleImageSlideShow = new Class({
 		imgUrls:[],
 		container: false
 	},
+	list: null,
 	
 	initialize: function(options){
 		this.parent(options);
@@ -125,6 +126,8 @@ var SimpleImageSlideShow = new Class({
 		if(!this.container) {
 			return;
 		}
+		
+		this.list = this.container.getElement('.dots');
 		
 		this.addImgs(this.options.imgUrls)
 		this.showSlide(this.options.startIndex);
@@ -142,6 +145,13 @@ var SimpleImageSlideShow = new Class({
 						styles: { display: 'none' }
 			}).inject($(this.options.container))
 		this.addSlide(img);
+		
+		var li = new Element('li');
+		var current = this.slides.length - 1;	
+		li.inject(this.list);
+		li.addEvent('click', function () {
+			this.showSlide(current);
+		}.bind(this));
 	}
 
 });
