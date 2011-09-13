@@ -3,9 +3,11 @@ var ss;
 window.addEvent('domready', function() {
 	ss = new SimpleImageSlideShow({
 		imgUrls: [
-		'images/default/gallery/images.jpg',
-		'images/default/gallery/logo-WMW-stacked-pos.jpg',
-		'images/default/gallery/stop_violence_against_women_button-p145014020496895843t5sj_400.jpg'
+		'images/default/gallery/FCC.jpg',
+		'images/default/gallery/BLUEWATERHEALTH.jpg',
+		'images/default/gallery/RDFSO_LOGO.jpg',
+		'images/default/gallery/SLCAS_LOGO.jpg',
+		'images/default/gallery/SPS_CREST.jpg'
 		],
 		container: $('slideshow')
 	});

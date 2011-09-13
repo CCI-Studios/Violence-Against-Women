@@ -24,7 +24,7 @@
 	margin: 0;
 	padding: 0;
 	position: absolute;
-	bottom: 20px;
+	bottom: 15px;
 	width: 100%;
 	
 	z-index: 4;
@@ -36,9 +36,13 @@
 	zoom: 1;
 	
 	cursor: pointer;
-	background: green;
+	background: #dedede;
+	border-radius:5px;
 	margin: 0 10px;
 	
 	width: 10px;
 	height: 10px;
 }
+
+#slideshow .dots li:hover,
+#slideshow .dots li.active {background: #5a2874;}
