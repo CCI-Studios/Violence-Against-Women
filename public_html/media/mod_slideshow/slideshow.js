@@ -9,7 +9,9 @@ var SimpleSlideShow = new Class({
 		
 		//onShow: $empty
 	},
-	slides:[],
+	slides: [],
+	timer: null,
+	cycle: null,
 	
 	initialize: function(options) {
 		this.setOptions(options)
@@ -51,6 +53,22 @@ var SimpleSlideShow = new Class({
 		} else if(this.options.wrap) {
 			this.showSlide(this.slides.length-1);
 		}
+	},
+	
+	start: function (){
+		this.cycleForward();
+		
+		if (!this.cycle) {
+			this.cycle = function (slide, index) {
+				this.timer = this.cycleForward.delay(3000, this);
+			}.bind(this);
+		}
+		this.addEvent('onShow', this.cycle);
+	},
+	
+	stop: function (){
+		this.removeEvent('onShow', this.cycle);
+		clearTimeout(this.timer);
 	},
 	
 	showSlide: function(iToShow){
