@@ -145,14 +145,3 @@ var SimpleImageSlideShow = new Class({
 	}
 
 });
-
-window.addEvent('domready', function() {
-	var ss = new SimpleImageSlideShow({
-		imgUrls: [
-		'images/default/gallery/images.jpg',
-		'images/default/gallery/logo-WMW-stacked-pos.jpg',
-		'images/default/gallery/stop_violence_against_women_button-p145014020496895843t5sj_400.jpg'
-		],
-		container: $('slideshow')
-	});
-});
