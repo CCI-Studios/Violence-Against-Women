@@ -95,6 +95,7 @@ var SimpleSlideShow = new Class({
 		}.bind(this);
 		
 		if(slide) {
+			this.fireEvent('onSwitch', [currentSlide, now, slide, iToShow]);
 			if($chk(now) && now != iToShow){
 				this.fading = true;
 				currentSlide.get('tween').start('opacity', 0).chain(function(){
@@ -105,7 +106,7 @@ var SimpleSlideShow = new Class({
 				fadeIn(slide);
 			}
 			this.now = iToShow;
-		}						
+		}	
 	}
 });
 
@@ -131,6 +132,19 @@ var SimpleImageSlideShow = new Class({
 		
 		this.addImgs(this.options.imgUrls)
 		this.showSlide(this.options.startIndex);
+		this.addEvent('onShow', this._showBullet.bind(this));
+		this.addEvent('onSwitch', this._switchBullet.bind(this));
+	},
+	
+	_switchBullet: function(currentSlide, currentIndex, newSlide, newIndex) {
+		var lis = this.list.getElements('li');
+		lis[currentIndex].removeClass('active');
+	},
+	
+	_showBullet: function(slide, index) {
+		var lis = this.list.getElements('li');
+		lis[index].addClass('active');
+		
 	},
 	
 	addImgs: function (imgs) {
