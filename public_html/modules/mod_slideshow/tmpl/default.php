@@ -2,13 +2,18 @@
 var ss;
 window.addEvent('domready', function() {
 	ss = new SimpleImageSlideShow({
-		imgUrls: [
-		'images/default/gallery/FCC.jpg',
-		'images/default/gallery/BLUEWATERHEALTH.jpg',
-		'images/default/gallery/RDFSO_LOGO.jpg',
-		'images/default/gallery/SLCAS_LOGO.jpg',
-		'images/default/gallery/SPS_CREST.jpg'
-		],
+		imgUrls: [<?php
+
+		$path = '/images/default/gallery/';
+		$files = JFolder::files(JPATH_SITE .$path);
+		foreach($files as $index=>$file) {
+			echo "'".$path.$file."'";
+			if($index != count($files)-1) {
+				echo ',';
+			}
+		}
+		
+		?>],
 		container: $('slideshow')
 	});
 	
