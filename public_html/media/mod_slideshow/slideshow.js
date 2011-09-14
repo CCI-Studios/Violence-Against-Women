@@ -169,3 +169,17 @@ var SimpleImageSlideShow = new Class({
 	}
 
 });
+
+window.addEvent('domready', function () {
+	var slideshows = $$('.slideshow');
+	
+	slideshows.each(function (slideshow) {
+		var images = eval(slideshow.get('data-images'));
+		
+		var ss = new SimpleImageSlideShow({
+			imgUrls: images,
+			container: slideshow
+		});
+		ss.start();
+	});
+});
