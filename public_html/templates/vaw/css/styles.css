@@ -49,6 +49,9 @@ ul.big li {
 	text-decoration:none;
 }
 
+.outdent {
+	padding: 0 0 0 20px;
+}
 
 .blog .item {margin-bottom:3em;}
 

@@ -45,3 +45,9 @@ h3 {
 img {
 	max-width:100%;
 }
+
+a:visited {
+	text-decoration: none;
+	color: ##5a2874;
+	
+}
