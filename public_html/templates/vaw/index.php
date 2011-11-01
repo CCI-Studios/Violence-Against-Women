@@ -8,10 +8,10 @@
 </head>
 
 <body class="<?php echo $wide ?>">
-	<div id="header"><div><div class="container">
+	<div id="header"><div class="container">
 		<jdoc:include type="modules" name="header" style="xhtml" />
 		
-	</div></div></div>
+	</div></div>
 		
 	<?php if ($this->countModules('masthead')): ?>
 	<div id="masthead"><div class="container">

@@ -6,13 +6,8 @@
 }
 
 #header {
-	background: white url('../images/header_bg_bg.jpg') center top no-repeat;
-}
-
-#header > div {
-	height: 140px;
-	padding-bottom:70px;
-	background: url('../images/header_bg.jpg') center top no-repeat;
+	padding-bottom:81px;
+	background: url('../images/header_bg.png') center top no-repeat;
 }
 
 #header .container { padding: 30px 0 10px;}
@@ -51,8 +46,12 @@ body.isWide #component {
 
 #footer {
 	background: url('../images/footer_bg_bg.png') top no-repeat;
-	padding-top: 80px;
+	padding: 80px 0 20px;
 	color:#fff;
 	font-size:10px;
+}
+
+#footer .moduletable {
+	padding-bottom: 5px;
 }
 
