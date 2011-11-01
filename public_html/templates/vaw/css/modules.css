@@ -81,7 +81,8 @@ ul.menu a {
 }
 
 .moduletable.masthead p { 
-	margin:0;
+	margin:0 0 20px 0;
+	line-height: 30px;
 }
 
 .moduletable.masthead ul {
@@ -140,7 +141,7 @@ ul.menu a {
 
 #sidebar .moduletable {
 	margin-top:1em; 
-	margin-bottom:45px; 
+	margin-bottom:20	px; 
 	}
 	
 #sidebar .moduletable:first-child {margin-top: 0; }
