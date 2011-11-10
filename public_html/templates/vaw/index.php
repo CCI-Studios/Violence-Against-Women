@@ -4,7 +4,7 @@
 	<jdoc:include type="head" />
 	
 	<link rel="stylesheet" href="templates/vaw/css/template.css" type="text/css" />
-
+	<link rel="shortcut icon" type="image/x-icon" href="/templates/vaw/images/favicon.ico" />
 </head>
 
 <body class="<?php echo $wide ?>">
