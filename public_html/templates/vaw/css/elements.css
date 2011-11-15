@@ -53,3 +53,11 @@ a:visited {
 a:hover {
 	text-decoration: underline;
 }
+
+#footer a {
+	color: #fff;
+}
+#footer a:hover {
+	color: #fff;
+	text-decoration:underline;
+}

@@ -101,6 +101,11 @@ ul.menu a {
 	border:none;
 }
 
+#footer .moduletable.menu a:hover {
+	color: #fff;
+	text-decoration:underline;
+}
+
 /* @end */
 
 /* contact */

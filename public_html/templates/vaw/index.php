@@ -38,7 +38,7 @@
 		<jdoc:include type="modules" name="footer" style="xhtml" />
 		
 		<div class="floatleft">&copy; <?php echo date('Y') ?> SLCCVAW. All Rights Reserved.</div>
-		<div class="floatright">Site by <a href="http://ccistudios.com" target="_blank">CCI Studios</a></div>
+		<a href="http://ccistudios.com" target="_blank"><div class="floatright">Site by CCI Studios</a></div>
 		
 		<div class="clear"></div>
 	</div></div>
