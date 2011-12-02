@@ -7,7 +7,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="/templates/vaw/images/favicon.ico" />
 </head>
 
-<body class="<?php echo $wide ?>">
+<body>
 	<div id="header"><div class="container">
 		<jdoc:include type="modules" name="header" style="xhtml" />
 		
@@ -42,6 +42,13 @@
 		
 		<div class="clear"></div>
 	</div></div>
+	
+	<script>
+		var _gaq=[["_setAccount","UA-27442283-1"],["_trackPageview"]];
+		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+			g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+			s.parentNode.insertBefore(g,s)}(document,"script"));
+  </script>
 		
 </body>
 </html>
